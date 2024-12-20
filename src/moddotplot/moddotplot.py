@@ -1051,8 +1051,8 @@ def main():
                             pair_mat,
                             win,
                             args.identity,
-                            seq_list[i],
-                            seq_list[j],
+                            smaller_seq_name,
+                            larger_seq_name,
                             False,
                         )
                         if args.grid or args.grid_only:
